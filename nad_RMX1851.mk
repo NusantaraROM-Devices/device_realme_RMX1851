@@ -24,6 +24,8 @@ $(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
 
 $(call inherit-product, device/realme/RMX1851/device.mk)
 
+TARGET_BOOT_ANIMATION_RES := 1080
+
 PRODUCT_NAME := nad_RMX1851
 PRODUCT_DEVICE := RMX1851
 PRODUCT_MANUFACTURER := Realme
