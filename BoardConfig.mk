@@ -18,7 +18,6 @@
 -include device/realme/sdm710-common/BoardConfigCommon.mk
 
 # Kernel
-# TARGET_PREBUILT_KERNEL := device/realme/RMX1851/prebuilt/Image.gz-dtb
 TARGET_KERNEL_CONFIG := sdm670-perf_defconfig
 
 # Partitions
