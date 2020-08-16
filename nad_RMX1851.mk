@@ -35,7 +35,7 @@ PRODUCT_MODEL := Realme 3 Pro
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE=RMX1851 \
-    PRIVATE_BUILD_DESC="coral-user 10 QQ3A.200805.001 6578210 release-keys"
+    PRIVATE_BUILD_DESC="sdm710-user 10 QKQ1.190918.001 release-keys"
 
 BUILD_FINGERPRINT := "google/coral/coral:10/QQ3A.200805.001/6578210:user/release-keys"
 
