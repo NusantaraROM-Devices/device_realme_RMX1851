@@ -14,11 +14,6 @@
 # limitations under the License.
 #
 
-# Inherit from those products. Most specific first.
-$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
-
 # Inherit some common Nusantara stuff.
 $(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
 
@@ -36,8 +31,6 @@ PRODUCT_MODEL := Realme 3 Pro
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE=RMX1851 \
     PRIVATE_BUILD_DESC="sdm710-user 10 QKQ1.190918.001 release-keys"
-
-BUILD_FINGERPRINT := "google/coral/coral:10/QQ3A.200805.001/6578210:user/release-keys"
 
 NAD_BUILD_TYPE := OFFICIAL
 
