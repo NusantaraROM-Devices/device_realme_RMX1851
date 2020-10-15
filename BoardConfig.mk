@@ -22,6 +22,3 @@ TARGET_KERNEL_CONFIG := sdm670-perf_defconfig
 
 # Partitions
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 5578424320
-
-# Security patch level
-VENDOR_SECURITY_PATCH := 2020-07-05
