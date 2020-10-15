@@ -18,6 +18,8 @@
 $(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
 $(call inherit-product, device/realme/RMX1851/device.mk)
 
+$(call inherit-product-if-exists, packages/apps/NusantaraParts/nadproject.mk)
+
 PRODUCT_WANTS_QTI_SIM_SETTINGS := true
 TARGET_BOOT_ANIMATION_RES := 1080
 USE_PIXEL_CHARGING := true
