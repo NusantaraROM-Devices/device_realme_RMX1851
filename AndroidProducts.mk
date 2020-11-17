@@ -16,8 +16,3 @@
 
 PRODUCT_MAKEFILES := \
      $(LOCAL_DIR)/nad_RMX1851.mk
-
-COMMON_LUNCH_CHOICES := \
-     nad_RMX1851-userdebug \
-     nad_RMX1851-user \
-     nad_RMX1851-eng
