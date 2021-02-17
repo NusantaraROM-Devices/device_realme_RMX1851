@@ -1,0 +1,32 @@
+[
+   {
+      "remote":"ghpriv",
+      "repository":"NusantaraROM-Devices/device_realme_sdm710-common",
+      "target_path":"device/realme/sdm710-common",
+      "branch":"10"
+   },
+   {
+      "remote":"github",
+      "repository":"PixelExperience-Devices/kernel_realme_sdm710",
+      "target_path":"kernel/realme/sdm710",
+      "branch":"ten"
+   },
+   {
+      "remote":"priv",
+      "repository":"android_packages_apps_NusantaraParts",
+      "target_path":"packages/apps/NusantaraParts",
+      "branch":"4.4-NoDirac"
+   },
+   {
+      "remote":"ghpriv",
+      "repository":"NusantaraROM-Devices/vendor_realme_sdm710-common",
+      "target_path":"vendor/realme/sdm710-common",
+      "branch":"10"
+   },
+   {
+      "remote":"github",
+      "repository":"PixelExperience/vendor_qcom_opensource_power",
+      "target_path":"vendor/qcom/opensource/power",
+      "branch":"ten"
+   }
+]
