@@ -35,8 +35,8 @@ PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
 
 # Audio
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/audio/mixer_paths_19691.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_19691.xml \
-    $(LOCAL_PATH)/audio/audio_platform_info_19691.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_19691.xml \
+    $(LOCAL_PATH)/audio/mixer_paths_18621.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_18621.xml \
+    $(LOCAL_PATH)/audio/audio_platform_info_18621.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_18621.xml \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
