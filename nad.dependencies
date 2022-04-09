@@ -1,0 +1,26 @@
+[
+  {
+    "remote": "github",
+    "repository": "NusantaraROM-Devices/device_realme_sdm710-common-p",
+    "target_path": "device/realme/sdm710-common",
+    "branch": "11"
+  },
+  {
+    "remote": "github",
+    "repository": "NusantaraROM-Devices/vendor_realme_RMX1851",
+    "target_path": "vendor/realme/RMX1851",
+    "branch": "eleven"
+  },
+  {
+    "remote": "github",
+    "repository": "NusantaraROM-Devices/vendor_realme_sdm710-common-p",
+    "target_path": "vendor/realme/sdm710-common",
+    "branch": "11"
+  },
+  {
+    "remote": "github",
+    "repository": "HyperTeam/android_kernel_realme_sdm710",
+    "target_path": "kernel/realme/RMX1851",
+    "branch": "lineage-18.1"
+  }
+]
